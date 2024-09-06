@@ -4,7 +4,7 @@ import com.ahmedapps.themovies.util.Resource
 import com.ahmedapps.themovies.main.domain.models.Media
 import kotlinx.coroutines.flow.Flow
 
-interface SearchRepository {
+interface     SearchRepository {
     suspend fun getSearchList(
         fetchFromRemote: Boolean,
         query: String,

@@ -34,7 +34,7 @@ interface MediaApi {
     companion object {
         const val BASE_URL = "https://api.themoviedb.org/3/"
         const val IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500"
-        const val API_KEY = BuildConfig.api_key
+        const val API_KEY = "da05d066a880d531cf838905a4adbb7f"
 
     }
 
